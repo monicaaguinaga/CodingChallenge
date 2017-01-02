@@ -1,0 +1,27 @@
+
+body {
+  font-family: 'Baloo Thambi', cursive;
+}
+
+.column-a {
+  width: 25%;
+}
+.column-b {
+  width: 25%;
+}
+#droppable {
+  width: 50%;
+  background-color: #e0e1e2;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li { background: #fcfdff; color: #898989; }
+li:nth-child(odd) { background: #898989;  color: #fff;}
