@@ -1,22 +1,27 @@
 .main
   .column-a
+    %p Column A
+
     %ul#sortable
-      %li.ui-state-default Item 1
-      %li.ui-state-default Item 2
-      %li.ui-state-default Item 3
-      %li.ui-state-default Item 4
-      %li.ui-state-default Item 5
+      %li.ui-state-default
+      %img{:alt => "Placeholder Image", :src => "https://unsplash.it/300/200?image=1053"}/
+      %li.ui-state-default
+      %img{:alt => "Placeholder Image", :src => "https://unsplash.it/300/200?image=1055"}/
+      %li.ui-state-default
+      %img{:alt => "Placeholder Image", :src => "https://unsplash.it/300/200?image=1056"}/
   / end of column A
-  #droppable.ui-widget-header
+  /stage div goes here
+  #stage
+    #droppable.ui-widget-header
   / end of stage
   .column-b
+    %p Column B
     %ul
-      %li.draggable Item 1
-      %li.draggable Item 2
-      %li.draggable Item 3
-      %li.draggable Item 4
-      %li.draggable Item 5
-      %li.draggable Item 6
-      %li.draggable Item 7
+      %li
+      %img.draggable{:alt => "Placeholder Image", :src => "https://unsplash.it/300/200?image=1061"}/
+      %li
+      %img.draggable{:alt => "Placeholder Image", :src => "https://unsplash.it/300/200?image=1018"}/
+      %li
+      %img.draggable{:alt => "Placeholder Image", :src => "https://unsplash.it/300/200?image=1037"}/
   / end of column b
 / end of main
